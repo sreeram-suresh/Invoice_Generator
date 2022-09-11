@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Welcome</title>
+        <style>
+            br 
+            {
+                display: block;
+                margin: 10px 0;
+            }
+            input[type=button], input[type=submit], input[type=reset]
+            {
+                background-color: #4CAF50;
+                border: none;
+                color: white;
+                padding: 16px 32px;
+                text-decoration: none;
+                margin: 9px 2px;
+                cursor: pointer;
+                width: 100%;
+            }
+            body 
+            {
+                max-width: 400px;
+                margin: auto;
+                background-color: aqua;
+                text-align: center;
+                margin-left: auto;
+                margin-top: 15%;
+                margin-bottom: 45%;
+                margin-right: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <centre>
+            <div>
+            </div>
+            <form method="post" action="loginverify.php">
+                <table>
+                    <tr>
+                        <td colspan="2" style="text-align:center ;"><h3>Welcome to INVOICE GENERATOR designed by SREERAM SURESH</h3></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align:center ;"><h5>Please login to use the Software</h5></td>
+                    </tr>
+                    <tr>
+                        <td><label>Username:</label></td>
+                        <td><input type="text" name="username" placeholder="Username"><br></td>
+                    </tr>
+                    <tr>
+                        <td><label> Password:</label></td>
+                        <td><input type="password" name="password" placeholder="Password"><br></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" name="submit" value="Register"><br></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align:center ;"><h4>Forgot Password?<br>Need not worry! You can reset it.<br><a href="resetpassword.html" target="_self">Reset Passsword</a></h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align:center ;"><h4>Haven't registered?<br>You can register now!<br><a href="register.html" target="_self">Register!</a></h4>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </centre>
+    </body>
+</html>

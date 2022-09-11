@@ -1,0 +1,46 @@
+<!--Add Products-->
+<html>
+    <head>
+        <title>Add Products</title>
+        <style>
+            body 
+            {
+                max-width: 400px;
+                margin: auto;
+                background-color: darkslateblue;
+                text-align: center;
+            }
+            form 
+            {
+                width: 150px;
+                border: 15px solid rgb(5,164,204);
+                padding: 50px;
+                margin: 60px;
+            }
+            input[type=button], input[type=submit], input[type=reset]
+            {
+                background-color: #4CAF50;
+                border: none;
+                color: white;
+                padding: 16px 32px;
+                text-decoration: none;
+                margin: 4px 2px;
+                cursor: pointer;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <centre>
+            <form method="post" action="addproduct.php">
+                <label>Product name:</label>
+                <input type="text" name="newproduct"><br><br>
+                <label>Cost:</label>
+                <input type="text" name="amt"><br><br>
+                <input type="submit" name="submit" value="Add Product"><br>
+                <input type="reset" name="reset" value="Clear Product"><br>
+                <a href="start.html" target="_self"><input type="button" value="BACK TO HOME" /></a>
+            </form>
+        </centre>
+    </body>
+</html>
